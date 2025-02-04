@@ -1,2 +1,2 @@
-# Starter_Pack
+# starterPack
 Sample starter page for iSparkInno
