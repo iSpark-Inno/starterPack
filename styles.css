@@ -59,7 +59,44 @@ nav ul li a:hover {
     align-items: center;
     text-align: center;
     color: #fff;
+    animation: change 12s infinite ease-in-out;
+
 }
+
+@keyframes change{
+        0% 
+        {
+            background-image: url(images/hero.jpg);
+    color: #fff;
+
+        }
+        25% 
+        {
+            background-image: url(images/hero1.jpg);
+    color: hsl(300, 100%, 57%);
+
+        }
+        50%
+        {
+            background-image: url(images/hero_2.jpg);
+    color: hsl(300, 100%, 67%);
+
+        }
+        75% 
+        {
+            background-image: url(images/hero3.jpg);
+    color: hsl(300, 100%, 77%);
+
+        }
+        100% 
+        {
+            background-image: url(images/hero.jpg);
+    color: hsl(300, 100%, 87%);
+
+        }
+    }
+    
+        
 
 .hero-content {
     background: rgba(0, 0, 0, 0.87);
