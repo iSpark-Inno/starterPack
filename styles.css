@@ -59,7 +59,39 @@ nav ul li a:hover {
     align-items: center;
     text-align: center;
     color: #fff;
+    animation: change 12s infinite ease-in-out;
+
 }
+
+@keyframes change{
+        0% 
+        {
+            background-image: url(images/hero.jpg);
+
+        }
+        25% 
+        {
+            background-image: url(images/hero11.jpg);
+
+        }
+        50%
+        {
+            background-image: url(images/hero_22.jpg);
+
+        }
+        75% 
+        {
+            background-image: url(images/hero33.jpg);
+
+        }
+        100% 
+        {
+            background-image: url(images/hero11.jpg);
+
+        }
+    }
+    
+        
 
 .hero-content {
     background: rgba(0, 0, 0, 0.87);
