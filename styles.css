@@ -206,3 +206,7 @@ footer {
     padding: 20px;
     margin-top: 50px;
 }
+.slideshow-container{
+    display: flex;
+    align-items: center;
+}
